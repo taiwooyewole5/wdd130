@@ -37,10 +37,10 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(000/0.2);
+    border: 1px solid black;
     padding: 1rem;
     background-color: #bbb;
-    color: #444,
+    color: #444;
     text-align: center;
 }
 
