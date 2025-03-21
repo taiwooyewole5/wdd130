@@ -1,0 +1,38 @@
+:root {
+    --primary: #a0ddff; 
+    --secondary: #8bb6e6;
+    --accent1: #7189ff;
+    --accent2: #c1cefe;
+}
+
+body {
+    background-color: var(--primary);
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.raft-title {
+    position: absolute;
+    bottom: 40%;
+    width: 96.5%;
+    background: rgba(0, 0, 0, 0.5); 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+} 
+
+.hero img {
+	position: relative;
+	width: 100%;
+	height: auto;
+    float: right;
+}
+
+.article-employee {
+    position: absolute;
+}
