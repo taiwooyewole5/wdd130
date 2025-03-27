@@ -81,6 +81,16 @@ article .hero-paragraph {
     color: white;
     font-size: 25px;
 }
+h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.history-paragraph {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
 
 
 /* .raft-title {
