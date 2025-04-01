@@ -40,3 +40,53 @@ fieldset {
     border: 5px solid color black; 
     padding: 1rem;
 }
+
+legend {
+    padding: 15px;
+    color: blue;
+    font-size: 20px;
+}
+
+label, input, button, select, textarea {
+    font-family: Roboto, merriweather;
+}
+
+label {
+    text-align: right;
+    padding-right: 10px;
+}
+
+input, select, textarea {
+    padding: 7px;
+    font-size: 9px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: aqua;
+    color: blue;
+    border: none;
+    border-radius: 10px;
+    padding: .75rem;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
+
+footer {
+    margin: 10px auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 20px;
+    color: chocolate;
+    border-top: 1px solid #fff;
+}
