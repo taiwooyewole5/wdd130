@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Merriweather, Robboto;
+    font-size: 20px;
+    color: black;
+    background: cadetblue;
+}
+
+header {
+    margin: 0 auto;
+    width: 750px;
+}
+
+h1 {
+    margin: 9px;
+    font-size: 1.48em;
+    color: darkolivegreen;
+    text-align: center;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid rgb(53, 61, 61);
+    border-radius: 7px;
+    background-color: rgb(235, 231, 231);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 15px;
+    margin: 1rem;
+    border: 5px solid color black; 
+    padding: 1rem;
+}
