@@ -26,7 +26,7 @@ h1 {
 form {
     width: 500px;
     margin: 0 auto;
-    padding: 5px;
+    padding: 15px;
     border: 1px solid rgb(53, 61, 61);
     border-radius: 7px;
     background-color: rgb(235, 231, 231);
@@ -38,7 +38,7 @@ fieldset {
     grid-gap: 15px;
     margin: 1rem;
     border: 5px solid color black; 
-    padding: 1rem;
+    padding: 10px;
 }
 
 legend {
@@ -53,12 +53,14 @@ label, input, button, select, textarea {
 
 label {
     text-align: right;
-    padding-right: 10px;
+    padding-right: 5px;
 }
 
 input, select, textarea {
     padding: 7px;
-    font-size: 9px;
+    font-size: 16px;
+    width: 300px;
+    height: 45px;
 }
 
 input[type="checkbox"] {
@@ -69,8 +71,8 @@ input[type="checkbox"] {
 
 button {
     margin: 1rem;
-    background-color: aqua;
-    color: blue;
+    background-color: rgb(64, 27, 231);
+    color: white;
     border: none;
     border-radius: 10px;
     padding: .75rem;
@@ -88,5 +90,21 @@ footer {
     text-align: center;
     font-size: 20px;
     color: chocolate;
-    border-top: 1px solid #fff;
+    border-top: 1px solid rgb(78, 75, 75);
 }
+
+/* .form-item {
+    display: grid;
+    align-items: center;
+}
+
+
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 5px;
+  }
+
+  .column2 {
+    grid-template-columns: 1fr 2fr;
+  } */
