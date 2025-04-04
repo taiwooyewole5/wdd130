@@ -1,0 +1,97 @@
+:root {
+    --primary: #a0ddff; 
+    --secondary: #8bb6e6;
+    --accent1: #7189ff;
+    --accent2: #c1cefe;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --accent1: #7189ff;
+     text-align: center;
+     margin: 0;
+    padding: 20px;
+    background-color: var(--primary);
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Image takes auto width, nav takes remaining space */
+    align-items: center;
+    padding: 10px;
+    background-color: var(--accent2);
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start; /* Align links to the right */
+    gap: 20px; /* Space between links */
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+.worker-purpose {
+     font-size: 24px;
+     font-weight: bold;
+     margin-bottom: 20px;
+}
+
+.raft-design {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.raft-worker {
+    background-color: var(--accent2);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.raft-worker img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.title {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    padding: 10px;
+    background-color: var(--accent1);
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 10px;
+    height: 100px;
+}
+
+footer nav {
+    display: flex;
+    gap: 15px;
+}
+
+
+.footer-p {
+    margin: 0px;
+    
+}
