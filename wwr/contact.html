@@ -7,6 +7,7 @@
         <meta name="description" content="Conatct us to have a smooth and amazing experience with exhilirating services from us.">
         <meta name="author" content="Taiwo Oyewole">
         <link rel="stylesheet" href="styles/contact.css">
+        <link rel="stylesheet" href="styles/rafting.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -26,22 +27,22 @@
         <main>
         <div class="raft-design">
             <div class="worker-purpose">
-                <h1>From sunrise to sunset, our team is making waves!  Ready to guide you through every rapid with skill and passion. Who is up for the challenge?  #WhitewaterWarriors #GuidesAtWork</h2>
+                <h1>From sunrise to sunset, our team is making waves!  Ready to guide you through every rapid with skill and passion. Who is up for the challenge?  #WhitewaterWarriors #GuidesAtWork</h1>
             </div>
                 <div class="raft-worker">
-                <img src="images/whiterafting.png" alt="worker's image" width="200px">
+                <img src="images/whiterafting.png" alt="worker's image" width="200">
                 <div class="title">Our Purpose</div>
                 <p> Behind every epic adventure is a dedicated team!  Our crew works hard to ensure every ride is safe, thrilling, and unforgettable!  #RaftingLife #AdventureAwaits</p>
             </div>
 
             <div class="raft-worker">
-                <img src="images/whiterafting2.png" alt="worker's image" width="200px">
+                <img src="images/whiterafting2.png" alt="worker's image" width="200">
                 <div class="title">Our Mission</div>
                 <p> More than just a job—it is a lifestyle!  Our team lives for adventure, teamwork, and the thrill of the rapids. Join us for the ride!  #LifeOnTheRiver #RaftingCrew"</p>
             </div>
 
             <div class="raft-worker">
-            <img src="images/whiterafting3.png" alt="worker's image" width="200px">
+            <img src="images/whiterafting3.png" alt="worker's image" width="200">
             <div class="title">Our goal</div>
             <p> Safety first, fun always!  Our rafting guides are trained pros, ensuring every adventure is an exhilarating yet secure experience.  #RaftingTeam #PaddleHard</p>
             </div>
@@ -58,7 +59,7 @@
 
             <form>
                 <fieldset>
-                    <legend>Contact Information</legend>
+                    <legend id="contact">Contact Information</legend>
                         <!-- <div class="form-item"> -->
                             <div class="form-item column1">
                             <label>Full Name: <input type="text" name="fullname"></label>
@@ -85,8 +86,18 @@
                      </div>
                     <label for="feedback">List the places you have lived:</label>
                     <textarea id="feedback" name="feedback" rows="4" placeholder="Lagos Nigeria, FCT Abuja, Cross River Calabar, Port Harcourt"></textarea>
+
+                    <label for="feedback">Choose your language: </label>
+
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">HTML</label><br>
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">CSS</label><br>
+                    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                    <label for="javascript">JavaScript</label>
+                    
                 </fieldset>
-                <button type="submite">Submit Poll</button>
+                <button type="submit">Submit Poll</button>
             </form>
         </div>
 
