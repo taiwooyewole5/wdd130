@@ -170,3 +170,14 @@ iframe {
     height: 700px;
     width: 650px;
 }
+
+.wireframe-link {
+    
+    background-color: #4A90E2; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
