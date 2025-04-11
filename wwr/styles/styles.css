@@ -1,0 +1,136 @@
+:root {
+    --primary: #a0ddff; 
+    --secondary: #8bb6e6;
+    --accent1: #7189ff;
+    --accent2: #c1cefe;
+}
+
+body {
+    font-family: Merriweather, Robboto;
+  --accent1: #7189ff;
+     text-align: center;
+     margin: 0;
+    padding: 20px;
+    background-color: var(--primary);
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Image takes auto width, nav takes remaining space */
+    align-items: center;
+    padding: 10px;
+    background-color: var(--accent2);
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start; /* Align links to the right */
+    gap: 20px; /* Space between links */
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+
+.hero {
+    position: relative;
+    margin: 50px;
+}
+
+.hero .hero-img {
+    height: 65vh;
+    width: 100%;
+}
+
+.hero .raft-title {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    color: white;
+    font-size: 25px;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.index-form {
+    display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 20px;
+  font-family: Merriweather, Robboto;
+  border: 1px solid rgb(53, 61, 61);
+  border-radius: 7px;
+  background-color:var(--accent1);
+}
+
+.index-form label {
+    margin-top: 10px;
+  font-weight: bold;
+  color: black;
+}
+
+.index-form input {
+    padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+button {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.raft-design {
+    display: flex;
+    gap: 20px; /* space between the cards */
+    padding: 20px;
+    flex-direction: row-reverse;
+}
+
+.raft-worker {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 220px;
+}
+
+footer {
+    padding: 10px;
+    background-color: var(--accent1);
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 10px;
+    height: 100px;
+}
+
+footer nav {
+    display: flex;
+    gap: 15px;
+}
+
+
+.footer-p {
+    margin: 0px;
+}
+
